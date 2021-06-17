@@ -7,17 +7,17 @@ En ese proyecto, dentro del script "Jugador" podemos identificar 3 componentes p
 
 Debemos seguir el principio de la responsabilidad simple en los componentes: cada componente tiene la responsabilidad sobre un solo aspecto.
 
-				               --------------------
-				              |      Jugador       |
-				              ----------------------
-				                        |
-				                        |
-						   ----------------------------------
-					       |       							|
-					       |								|
-						--------						---------------
-					   |  Input | 					   |   Movimiento  |
-						--------						---------------
+			--------------------
+			|      Jugador       |
+			----------------------
+				|
+				|
+		-----------------------------------------
+		|					|
+		|					|
+	------------------			----------------
+	|     Input      |			|   Movimiento  |
+	------------------			----------------
 							
 
 En este modelo, el script de Jugador contiene todas las caracteristicas del jugador, y variables relacionadas a su status, y el movimiento e input se separan en dos scripts.
