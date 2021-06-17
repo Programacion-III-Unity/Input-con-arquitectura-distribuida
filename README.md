@@ -1,4 +1,4 @@
-# Input con arquitectura distribuida
+# Input con arquitectura distribuida (Work in progress!!!)
 En este ejemplo tomamos el repo de [Input System basico](https://github.com/Programacion-III-Unity/Input-System-Basico), y desacoplamos los componentes principales en 4 scripts.
 En ese proyecto, dentro del script "Jugador" podemos identificar 3 componentes principales:
 - Las caracteristicas del Jugador (posicion, prefab del disparo, etc)
