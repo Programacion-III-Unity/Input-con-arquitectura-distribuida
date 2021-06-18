@@ -347,7 +347,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Actions: {fileID: -944628639613478452, guid: 5a63bcbb12c524e40af13e25c68e30cb, type: 3}
-  m_NotificationBehavior: 0
+  m_NotificationBehavior: 2
   m_UIInputModule: {fileID: 0}
   m_DeviceLostEvent:
     m_PersistentCalls:
@@ -358,12 +358,62 @@ MonoBehaviour:
   m_ControlsChangedEvent:
     m_PersistentCalls:
       m_Calls: []
-  m_ActionEvents: []
+  m_ActionEvents:
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 92e9aba3-0c5a-4f82-aaf0-b458c203019c
+    m_ActionName: Player/Disparo[/Keyboard/space,/XInputControllerWindows/rightTrigger,/XInputControllerWindows/buttonSouth]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 1b50fd05-64ad-44ef-9b83-f5a12203b1c9
+    m_ActionName: Player/Salir[/Keyboard/escape,/Keyboard/q,/XInputControllerWindows/start]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: f3983f05-5eac-4028-a787-560eaadcad71
+    m_ActionName: Player/Movimiento[/XInputControllerWindows/leftStick,/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d,/Keyboard/upArrow,/Keyboard/downArrow,/Keyboard/leftArrow,/Keyboard/rightArrow,/XInputControllerWindows/dpad]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &2100270972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2100270970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e8f7d0e179fd714f8f1ed9c481400d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jugadorScript: {fileID: 0}
+--- !u!114 &2100270973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2100270970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68afdd33192b15f4baee8ebd15d74d67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jugadorScript: {fileID: 0}
 --- !u!1001 &5305045886091477805
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -415,6 +465,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5305045885665699228, guid: 64571197df159024e8ce6a5b9aa303d4, type: 3}
+      propertyPath: inputScript
+      value: 
+      objectReference: {fileID: 2100270973}
+    - target: {fileID: 5305045885665699228, guid: 64571197df159024e8ce6a5b9aa303d4, type: 3}
+      propertyPath: movementScript
+      value: 
+      objectReference: {fileID: 2100270972}
     - target: {fileID: 5305045885665699229, guid: 64571197df159024e8ce6a5b9aa303d4, type: 3}
       propertyPath: m_Name
       value: Personaje
