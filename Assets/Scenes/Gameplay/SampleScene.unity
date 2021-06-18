@@ -364,6 +364,30 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &2100270972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2100270970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e8f7d0e179fd714f8f1ed9c481400d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2100270973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2100270970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68afdd33192b15f4baee8ebd15d74d67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &5305045886091477805
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -415,6 +439,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5305045885665699228, guid: 64571197df159024e8ce6a5b9aa303d4, type: 3}
+      propertyPath: inputScript
+      value: 
+      objectReference: {fileID: 2100270973}
+    - target: {fileID: 5305045885665699228, guid: 64571197df159024e8ce6a5b9aa303d4, type: 3}
+      propertyPath: movementScript
+      value: 
+      objectReference: {fileID: 2100270972}
     - target: {fileID: 5305045885665699229, guid: 64571197df159024e8ce6a5b9aa303d4, type: 3}
       propertyPath: m_Name
       value: Personaje
